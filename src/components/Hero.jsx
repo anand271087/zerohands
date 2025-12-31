@@ -13,7 +13,7 @@ const Hero = () => {
                     </p>
                     <div className="hero-actions">
                         <button className="btn-primary">Start Automating</button>
-                        <button className="btn-secondary">View Demo</button>
+                        <a href="https://calendar.app.google/hQr6ckhLWeZbR8sf8" target="_blank" rel="noopener noreferrer" className="btn-secondary">Book a Call</a>
                     </div>
                 </div>
                 <div className="hero-visual">
