@@ -19,9 +19,9 @@ const Header = () => {
                 </div>
                 <nav className="nav-links">
                     <a href="#home">Home</a>
-                    <a href="#services">Services</a>
+                    <a href="#video">Video</a>
+                    <a href="#services">Automation</a>
                     <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
                 </nav>
                 <a href="https://calendar.app.google/hQr6ckhLWeZbR8sf8" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Call</a>
             </div>

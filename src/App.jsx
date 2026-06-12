@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
+import VideoProduction from './components/VideoProduction';
+import Automation from './components/Automation';
 import About from './components/About';
 import Footer from './components/Footer';
 
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Features />
+        <VideoProduction />
+        <Automation />
         <About />
       </main>
       <Footer />
