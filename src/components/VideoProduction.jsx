@@ -39,10 +39,10 @@ const VideoProduction = () => {
     ];
 
     const outcomes = [
-        { stat: "90%", label: "Lower production cost" },
-        { stat: "Days", label: "Not weeks to delivery" },
-        { stat: "∞", label: "Versions & languages" },
-        { stat: "0", label: "Cameras, studios, or crews" },
+        { stat: "90%", label: "Lower cost — budget goes to growth, not production" },
+        { stat: "Days", label: "Not weeks — reach your market first" },
+        { stat: "∞", label: "Versions & languages — every audience, every channel" },
+        { stat: "10x", label: "More content shipped — more leads, more revenue" },
     ];
 
     return (
@@ -55,7 +55,8 @@ const VideoProduction = () => {
                     </h2>
                     <p className="section-subtitle">
                         Everything a film crew, voiceover artist, and editor deliver —
-                        produced by AI, end to end.
+                        produced by AI, end to end. So you ship more content, capture
+                        more leads, and grow revenue faster.
                     </p>
                 </div>
 

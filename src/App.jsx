@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import VideoProduction from './components/VideoProduction';
 import Automation from './components/Automation';
 import About from './components/About';
+import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <VideoProduction />
         <Automation />
         <About />
+        <FinalCTA />
       </main>
       <Footer />
     </div>

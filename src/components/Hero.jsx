@@ -9,34 +9,22 @@ const Hero = () => {
                         <span className="eyebrow-dot" /> AI Video Production Studio
                     </span>
                     <h1 className="hero-title">
-                        Studio-Quality Video,
+                        Scale Your Business with
                         <br />
-                        <span className="gradient-text">Without the Studio</span>
+                        <span className="gradient-text">Professional Video</span>
                     </h1>
                     <p className="hero-subtitle">
-                        We produce lifelike, presenter-led videos with AI — no cameras,
-                        no actors, no editing suite. Launch professional content in days,
-                        not weeks, at a fraction of the cost.
+                        Launch professional, presenter-led content in days instead of
+                        weeks — at a fraction of the cost. More content means more leads,
+                        and more leads mean more revenue.
                     </p>
                     <div className="hero-actions">
-                        <a href="#video" className="btn-primary">See What We Create</a>
-                        <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary">Book a Call</a>
-                    </div>
-                    <div className="hero-trust">
-                        <div className="trust-item">
-                            <strong>90%</strong>
-                            <span>lower production cost</span>
-                        </div>
-                        <div className="trust-divider" />
-                        <div className="trust-item">
-                            <strong>Days</strong>
-                            <span>not weeks to launch</span>
-                        </div>
-                        <div className="trust-divider" />
-                        <div className="trust-item">
-                            <strong>∞</strong>
-                            <span>versions &amp; languages</span>
-                        </div>
+                        <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
+                            Book a Call
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
