@@ -33,13 +33,16 @@ const Hero = () => {
                         <div className="vf-glow" />
                         <div className="vf-screen">
                             <span className="vf-rec"><span className="vf-rec-dot" /> REC</span>
-                            <div className="vf-presenter" />
-                            <div className="vf-scanline" />
-                            <button className="vf-play" aria-hidden="true" tabIndex={-1}>
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M8 5v14l11-7z" />
-                                </svg>
-                            </button>
+                            <video
+                                className="vf-video"
+                                src="/videos/avatar-loop.mp4"
+                                poster="/videos/avatar-poster.jpg"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                aria-label="AI presenter speaking on camera"
+                            />
                             <div className="vf-caption">“Meet your new AI presenter.”</div>
                         </div>
                         <div className="vf-timeline">

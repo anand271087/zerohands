@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Raw video originals (too large for GitHub; compressed versions are committed)
+public/videos/avatar-hero.mp4
