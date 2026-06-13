@@ -1,4 +1,4 @@
-const CALENDAR_URL = "https://calendar.app.google/hQr6ckhLWeZbR8sf8";
+const CALENDAR_URL = "https://calendly.com/anand_kaliappan/call";
 
 const Hero = () => {
     return (

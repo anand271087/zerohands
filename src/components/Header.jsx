@@ -23,7 +23,7 @@ const Header = () => {
                     <a href="#services">Automation</a>
                     <a href="#about">About</a>
                 </nav>
-                <a href="https://calendar.app.google/hQr6ckhLWeZbR8sf8" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Call</a>
+                <a href="https://calendly.com/anand_kaliappan/call" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Call</a>
             </div>
 
         </header>
