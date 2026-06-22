@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import VideoProduction from './components/VideoProduction';
+import MidCTA from './components/MidCTA';
 import Automation from './components/Automation';
 import About from './components/About';
 import FinalCTA from './components/FinalCTA';
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <VideoProduction />
+        <MidCTA />
         <Automation />
         <About />
         <FinalCTA />

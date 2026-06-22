@@ -798,6 +798,54 @@ button {
   }
 }
 
+/* Mid-page CTA band */
+.mid-cta {
+  padding: 2rem 0 1rem;
+}
+
+.mid-cta-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  background:
+    linear-gradient(120deg, rgba(41, 121, 255, 0.1), rgba(0, 229, 255, 0.04));
+  backdrop-filter: blur(10px);
+}
+
+.mid-cta-text {
+  flex: 1;
+  min-width: 260px;
+}
+
+.mid-cta-title {
+  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.mid-cta-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  max-width: 520px;
+}
+
+.mid-cta .btn-hero-cta {
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .mid-cta-band {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
 /* Final CTA */
 .final-cta {
   padding: 3rem 0 7rem;
