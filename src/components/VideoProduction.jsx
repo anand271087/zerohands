@@ -38,25 +38,18 @@ const VideoProduction = () => {
         },
     ];
 
-    const outcomes = [
-        { stat: "90%", label: "Lower cost — budget goes to growth, not production" },
-        { stat: "Days", label: "Not weeks — reach your market first" },
-        { stat: "∞", label: "Versions & languages — every audience, every channel" },
-        { stat: "10x", label: "More content shipped — more leads, more revenue" },
-    ];
 
     return (
         <section id="video" className="video-section">
             <div className="container">
                 <div className="section-header">
-                    <span className="section-eyebrow">The Production Pipeline</span>
+                    <span className="section-eyebrow">Also from ZeroHands</span>
                     <h2 className="section-title">
-                        Video Production, <span className="gradient-text">Reinvented</span>
+                        AI Avatar <span className="gradient-text">Videos</span>
                     </h2>
                     <p className="section-subtitle">
-                        Everything a film crew, voiceover artist, and editor deliver —
-                        produced by AI, end to end. So you ship more content, capture
-                        more leads, and grow revenue faster.
+                        Need content too? The same AI engineering produces presenter-led
+                        videos from a script — no studio, no retakes, any language.
                     </p>
                 </div>
 
@@ -70,15 +63,6 @@ const VideoProduction = () => {
                             <h3>{stage.title}</h3>
                             <p>{stage.description}</p>
                         </article>
-                    ))}
-                </div>
-
-                <div className="outcomes-strip">
-                    {outcomes.map((o) => (
-                        <div key={o.label} className="outcome">
-                            <span className="outcome-stat gradient-text">{o.stat}</span>
-                            <span className="outcome-label">{o.label}</span>
-                        </div>
                     ))}
                 </div>
             </div>

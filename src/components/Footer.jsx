@@ -4,15 +4,15 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>Zero Hands</h3>
-                        <p>AI video production &amp; automation — built for scale.</p>
+                        <h3>ZeroHands</h3>
+                        <p>AI automation for growing companies — plus AI avatar video.</p>
                     </div>
                     <div className="footer-links">
                         <div className="link-group">
                             <h4>Company</h4>
-                            <a href="#">About</a>
-                            <a href="#">Careers</a>
-                            <a href="#">Contact</a>
+                            <a href="#work">Our work</a>
+                            <a href="#services">Services</a>
+                            <a href="#about">About</a>
                         </div>
                         <div className="link-group">
                             <h4>Legal</h4>
@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Zero Hands. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} ZeroHands. All rights reserved.</p>
                 </div>
             </div>
         </footer>

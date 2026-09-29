@@ -1,4 +1,5 @@
-const CALENDAR_URL = "https://calendly.com/anand_kaliappan/call";
+import { CALENDAR_URL } from '../config';
+import ArrowIcon from './ArrowIcon';
 
 const MidCTA = () => {
     return (
@@ -6,17 +7,15 @@ const MidCTA = () => {
             <div className="container">
                 <div className="mid-cta-band">
                     <div className="mid-cta-text">
-                        <h2 className="mid-cta-title">We automate the busy work</h2>
+                        <h2 className="mid-cta-title">Got a task your team hates doing?</h2>
                         <p className="mid-cta-subtitle">
-                            From video production to repetitive operations — let AI handle it,
-                            so your team can focus on growth.
+                            Tell us about it in 20 minutes. We'll tell you honestly whether AI can
+                            take it off their plate — and roughly what it would save.
                         </p>
                     </div>
                     <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
-                        Book a Call
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                        Book a free call
+                        <ArrowIcon />
                     </a>
                 </div>
             </div>

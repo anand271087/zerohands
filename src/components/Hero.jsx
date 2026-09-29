@@ -1,4 +1,6 @@
-const CALENDAR_URL = "https://calendly.com/anand_kaliappan/call";
+import { CALENDAR_URL } from '../config';
+import ArrowIcon from './ArrowIcon';
+import InvoiceFlow from './InvoiceFlow';
 
 const Hero = () => {
     return (
@@ -6,51 +8,35 @@ const Hero = () => {
             <div className="container hero-content">
                 <div className="hero-text">
                     <span className="eyebrow">
-                        <span className="eyebrow-dot" /> AI Video Production Studio
+                        <span className="eyebrow-dot" /> AI Automation Agency
                     </span>
                     <h1 className="hero-title">
-                        Scale Your Business with
+                        We saved Spinny <span className="gradient-text">₹80&nbsp;lakh a year.</span>
                         <br />
-                        <span className="gradient-text">Professional Video</span>
+                        What could AI save you?
                     </h1>
                     <p className="hero-subtitle">
-                        Launch professional, presenter-led content in days instead of
-                        weeks — at a fraction of the cost. More content means more leads,
-                        and more leads mean more revenue.
+                        We find the manual work draining your team — invoices, data entry,
+                        document search — and automate it. Live in weeks, not quarters.
                     </p>
                     <div className="hero-actions">
                         <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
-                            Book a Call
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
+                            Book a free 20-min call
+                            <ArrowIcon />
                         </a>
+                        <a href="#work" className="btn-secondary">See our work ↓</a>
                     </div>
+                    <a href="#spinny-invoice" className="hero-proof-chip">
+                        <img src="/logos/spinny.svg" alt="Spinny" className="chip-logo" />
+                        <span>₹80L/yr saved</span>
+                        <span className="chip-sep" />
+                        <span>paid back in 2 weeks</span>
+                        <span className="chip-arrow" aria-hidden="true">→</span>
+                    </a>
                 </div>
 
                 <div className="hero-visual">
-                    <div className="video-frame">
-                        <div className="vf-glow" />
-                        <div className="vf-screen">
-                            <span className="vf-rec"><span className="vf-rec-dot" /> REC</span>
-                            <video
-                                className="vf-video"
-                                src="/videos/avatar-loop.mp4"
-                                poster="/videos/avatar-poster.jpg"
-                                autoPlay
-                                muted
-                                loop
-                                playsInline
-                                aria-label="AI presenter speaking on camera"
-                            />
-                            <div className="vf-caption">“Meet your new AI presenter.”</div>
-                        </div>
-                        <div className="vf-timeline">
-                            <span /><span /><span /><span />
-                        </div>
-                    </div>
-                    <div className="vf-chip vf-chip-1">Voiceover · EN</div>
-                    <div className="vf-chip vf-chip-2">Auto-edited</div>
+                    <InvoiceFlow />
                 </div>
             </div>
         </section>

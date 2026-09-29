@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { CALENDAR_URL } from '../config';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -14,18 +15,17 @@ const Header = () => {
     return (
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
             <div className="container header-content">
-                <div className="logo">
+                <a href="#home" className="logo">
                     Zero<span className="gradient-text">Hands</span>
-                </div>
+                </a>
                 <nav className="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#video">Video</a>
-                    <a href="#services">Automation</a>
+                    <a href="#work">Work</a>
+                    <a href="#services">Services</a>
+                    <a href="#process">Process</a>
                     <a href="#about">About</a>
                 </nav>
-                <a href="https://calendly.com/anand_kaliappan/call" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Call</a>
+                <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">Book a free call</a>
             </div>
-
         </header>
     );
 };

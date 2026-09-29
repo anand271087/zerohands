@@ -1,4 +1,5 @@
-const CALENDAR_URL = "https://calendly.com/anand_kaliappan/call";
+import { CALENDAR_URL } from '../config';
+import ArrowIcon from './ArrowIcon';
 
 const FinalCTA = () => {
     return (
@@ -6,18 +7,16 @@ const FinalCTA = () => {
             <div className="container">
                 <div className="final-cta-card">
                     <h2 className="final-cta-title">
-                        Ready to scale your business with{" "}
-                        <span className="gradient-text">automated video production?</span>
+                        Find out what AI could{" "}
+                        <span className="gradient-text">save your business.</span>
                     </h2>
                     <p className="final-cta-subtitle">
-                        Tell us your goals — we&apos;ll show you exactly how video drives
-                        your next stage of growth.
+                        A free 20-minute call. Bring one process — we'll map how to automate it
+                        and what it's worth.
                     </p>
                     <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
-                        Book a Call
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                        Book a free 20-min call
+                        <ArrowIcon />
                     </a>
                 </div>
             </div>
