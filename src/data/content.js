@@ -144,7 +144,7 @@ export const comparison = {
   rows: [
     { label: "Time to go live", values: ["2–4 weeks", "3–6 months", "Unpredictable", "Months to hire, then build"] },
     { label: "Upfront cost", values: ["Scoped to one problem", "Large contract", "Low", "Salary + recruiting"] },
-    { label: "AI & automation depth", values: ["Solution architects, 14+ yrs", "Yes, but you're a small account", "Varies", "Hard to find in India today"] },
+    { label: "AI & automation depth", values: ["Solution architects, 17+ yrs", "Yes, but you're a small account", "Varies", "Hard to find in India today"] },
     { label: "You own the code & data", values: ["Yes", "Often locked in", "Sometimes", "Yes"] },
     { label: "Support after launch", values: ["Included", "Paid change requests", "Rarely", "If they stay"] },
   ],

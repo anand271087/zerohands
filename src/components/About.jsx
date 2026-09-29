@@ -7,7 +7,7 @@ const About = () => {
         {
             name: "Anand Kaliappan",
             role: "Co-Founder & AI Engineer",
-            bio: "With 14+ years of experience in Generative AI, machine learning, and NLP, Anand leads our technical vision. He specializes in unravelling data complexities and creating autonomous systems that learn and adapt.",
+            bio: "With 17+ years of experience in Generative AI, machine learning, and NLP, Anand leads our technical vision. He specializes in unravelling data complexities and creating autonomous systems that learn and adapt.",
             image: anandImg,
             linkedin: "https://www.linkedin.com/in/anand-kaliappan-ai-engineer"
         },
