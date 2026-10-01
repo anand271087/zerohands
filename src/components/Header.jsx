@@ -19,9 +19,8 @@ const Header = () => {
                     Zero<span className="gradient-text">Hands</span>
                 </a>
                 <nav className="nav-links">
-                    <a href="#work">Work</a>
+                    <a href="#work">Case Studies</a>
                     <a href="#services">Services</a>
-                    <a href="#process">Process</a>
                     <a href="#about">About</a>
                 </nav>
                 <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">Book a free call</a>
