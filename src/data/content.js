@@ -129,7 +129,6 @@ export const services = [
   { title: "Web data crawlers", outcome: "Fresh data, no copy-paste.", body: "Prices, catalogues and listings pulled from any website or portal, on a schedule, into one clean sheet." },
   { title: "Workflow automation", outcome: "Tools that talk to each other.", body: "n8n workflows that connect your CRM, email, sheets and WhatsApp so handoffs happen on their own." },
   { title: "Custom AI apps & agents", outcome: "Built around how you work.", body: "Internal tools and AI agents for the processes off-the-shelf software doesn't cover." },
-  { title: "AI avatar videos", outcome: "Content without a shoot.", body: "Presenter-led videos from a script — any language, no studio, no retakes." },
 ];
 
 export const steps = [

@@ -5,7 +5,7 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-brand">
                         <h3>ZeroHands</h3>
-                        <p>AI automation for growing companies — plus AI avatar video.</p>
+                        <p>AI automation for growing companies.</p>
                     </div>
                     <div className="footer-links">
                         <div className="link-group">

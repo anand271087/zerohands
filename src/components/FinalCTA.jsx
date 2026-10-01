@@ -14,6 +14,10 @@ const FinalCTA = () => {
                         A free 20-minute call. Bring one process — we'll map how to automate it
                         and what it's worth.
                     </p>
+                    <p className="final-cta-urgency">
+                        Your competitors are already automating this. Every month you don't is a
+                        month they pull ahead.
+                    </p>
                     <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
                         Book a free 20-min call
                         <ArrowIcon />

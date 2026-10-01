@@ -9,7 +9,6 @@ import Process from './components/Process';
 import MidCTA from './components/MidCTA';
 import Comparison from './components/Comparison';
 import Testimonials from './components/Testimonials';
-import VideoProduction from './components/VideoProduction';
 import About from './components/About';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
@@ -30,7 +29,6 @@ function App() {
         <MidCTA />
         <Comparison />
         <Testimonials />
-        <VideoProduction />
         <About />
         <FAQ />
         <FinalCTA />

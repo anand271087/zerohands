@@ -732,7 +732,49 @@ section {
   padding: 0.95rem 1.8rem;
 }
 
+.calc-leak {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 181, 71, 0.3);
+  background: rgba(255, 181, 71, 0.08);
+}
+
+.calc-leak strong {
+  color: #ffb547;
+}
+
+.calc-leak span {
+  display: block;
+  margin-top: 0.4rem;
+  font-weight: 600;
+}
+
+/* ---------- Final CTA urgency line ---------- */
+.final-cta-urgency {
+  max-width: 560px;
+  margin: -0.75rem auto 2rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
 /* ---------- Services ---------- */
+/* Five cards: 3 on top, 2 centred below. */
+@media (min-width: 969px) {
+  .services-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .services-grid .service-card {
+    grid-column: span 2;
+  }
+
+  .services-grid .service-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+}
+
 .service-outcome {
   font-size: 0.78rem;
   font-weight: 700;

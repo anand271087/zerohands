@@ -49,8 +49,15 @@ const SavingsCalculator = () => {
                                 <span className="calc-saved gradient-text">{formatINR(savedYearly)}<em>/year</em></span>
                             </div>
                             <p className="calc-note">Estimate assumes 75% of the task is automated, with people reviewing the rest.</p>
+                            {savedYearly > 0 && (
+                                <p className="calc-leak">
+                                    That's <strong>{formatINR(savedYearly)}</strong> you're losing every year — every
+                                    month you wait adds another <strong>{formatINR(savedYearly / 12)}</strong> to it.
+                                    <span>Ready to stop the leak? Book your free call below.</span>
+                                </p>
+                            )}
                             <a href={CALENDAR_URL} target="_blank" rel="noopener noreferrer" className="btn-hero-cta">
-                                Get your exact number
+                                Book a free 20-min call
                                 <ArrowIcon />
                             </a>
                         </div>

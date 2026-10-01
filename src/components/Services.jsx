@@ -6,7 +6,6 @@ const icons = [
     <path key="web" d="M12 3a9 9 0 100 18 9 9 0 000-18zM3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z" />,
     <path key="flow" d="M5 6h4v4H5zM15 14h4v4h-4zM9 8h3a2 2 0 012 2v4a2 2 0 002 2" />,
     <path key="agent" d="M12 3l2 4 4 .6-3 3 .7 4.4L12 13l-3.7 2 .7-4.4-3-3L10 7zM5 21h14" />,
-    <path key="video" d="M3 6h13v12H3zM16 10l5-3v10l-5-3" />,
 ];
 
 const Services = () => {
@@ -19,7 +18,7 @@ const Services = () => {
                         What we <span className="gradient-text">automate</span>
                     </h2>
                     <p className="section-subtitle">
-                        Six ways we take work off your team's plate. Most clients start with one.
+                        Five ways we take work off your team's plate. Most clients start with one.
                     </p>
                 </div>
                 <div className="services-grid">
