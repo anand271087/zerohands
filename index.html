@@ -12,6 +12,17 @@
 </head>
 
 <body>
+  <!-- Lets Netlify detect the calculator lead form; the React form posts to it. -->
+  <form name="calculator-lead" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input name="bot-field" />
+    <input type="email" name="email" />
+    <input name="people" />
+    <input name="timeShare" />
+    <input name="monthlySalary" />
+    <input name="currentYearly" />
+    <input name="savedYearly" />
+    <input name="page" />
+  </form>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>

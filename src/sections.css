@@ -732,6 +732,92 @@ section {
   padding: 0.95rem 1.8rem;
 }
 
+.calc-locked,
+.calc-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.calc-locked h3,
+.calc-email h3 {
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.calc-locked p,
+.calc-email p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.calc-lock-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--cyan-accent);
+  background: rgba(0, 229, 255, 0.1);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+}
+
+.calc-email input {
+  font: inherit;
+  font-size: 1.05rem;
+  color: var(--text-main);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  width: 100%;
+}
+
+.calc-email input:focus {
+  outline: none;
+  border-color: var(--cyan-accent);
+}
+
+.calc-email input[aria-invalid='true'] {
+  border-color: #ff6b6b;
+}
+
+.calc-error {
+  color: #ff8a8a;
+  font-size: 0.85rem;
+  margin-top: -0.4rem;
+}
+
+.calc-consent {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.calc-output button.btn-hero-cta {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.95rem 1.8rem;
+}
+
+.calc-output button.btn-hero-cta:disabled {
+  opacity: 0.7;
+  cursor: wait;
+  transform: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 .calc-leak {
   font-size: 0.98rem;
   line-height: 1.55;
